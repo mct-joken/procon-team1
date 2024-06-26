@@ -8,6 +8,7 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, 'index.html'),
         a: resolve(__dirname, 'mwyk/index.html'),
+        lotusuwako496: resolve(__dirname, 'lotusuwako496/index.html')
       },
     },
   },
