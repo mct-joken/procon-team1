@@ -7,7 +7,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
-        a: resolve(__dirname, 'mwyk/index.html'),
+        iwa810: resolve(__dirname, 'iwa810/index.html'),
       },
     },
   },
