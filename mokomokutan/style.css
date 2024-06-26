@@ -1,0 +1,26 @@
+h2 {
+  color: brown;
+  font-size: 1.5rem;
+}
+
+body {
+  width: 80%;          /* 幅をページの80%にする */
+  min-width: 300px;    /* 最小の幅を300pxにする */
+  max-width: 800px;    /* 最大の幅を800pxにする */
+  margin: 0 auto;      /* 上下のマージンを0, 左右のマージンをautoにする */
+}
+
+table {
+  width: 100%;                  /* 幅をページいっぱいに広げる */
+  border-collapse: collapse;    /* 隣り合う枠線を結合する */
+  text-align: left;             /* テキストを左寄せにする */
+}
+
+th, td {
+  padding: 0.5rem;              /* 内側の余白を0.5rem取る */
+  border: 1px solid #ddd;       /* 太さ1px, スタイルsolid, 色#dddの枠線をつける */
+}
+
+th {
+  background-color: #e1adad;    /* 要素の背景色を#e1adadにする */
+}
